@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Clock from './Clock';
+import Contador from './Contador';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Clock />
-    <Clock />
+    <Contador />
     
   </React.StrictMode>
 );
